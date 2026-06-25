@@ -1,0 +1,71 @@
+﻿# LibMan - Client-side libraries
+wwwroot/lib/
+
+# Visual Studio
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]rm/
+[Aa]rm64/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio cache/options
+.vscode/
+.vs/
+.idea/
+
+# Files built by Visual Studio
+*_i.c
+*_p.c
+*_h.h
+*.ilk
+*.obj
+*.iobj
+*.pch
+*.pdb
+*.ipdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*_wpftmp.csproj
+*.log
+*.tlog
+*.vspscc
+*.vssscc
+.builds
+
+# Publish profiles
+*.pubxml
+*.pubxml.user
+
+wwwroot/
+├── css/              ✅ Incluir en Git - Tu CSS personalizado
+│   ├── site.css
+│   └── admin.css
+├── js/               ✅ Incluir en Git - Tu JavaScript personalizado
+│   ├── site.js
+│   └── validation.js
+├── lib/              ❌ NO incluir en Git - Librerías de terceros
+│   ├── jquery/       (restaurado por LibMan)
+│   └── bootstrap/    (restaurado por LibMan)
+├── images/           ✅ Incluir en Git - Tus imágenes
+│   └── logo.png
+└── favicon.ico       ✅ Incluir en Git
