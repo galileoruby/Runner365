@@ -6,4 +6,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Include=".github\prompts\plan.prompt.md" />
+    <None Include=".github\prompts\prompt.specify.md" />
+  </ItemGroup>
+
 </Project>
