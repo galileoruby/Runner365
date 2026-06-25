@@ -1,0 +1,38 @@
+﻿@{
+    var _student = ViewData["Student"] as StudentDto;
+}
+
+<div class="card">
+    <div class="card-body">
+
+        <h3>
+            This section is about how to use View Data
+        </h3>
+
+
+        <div>Initial Message: @ViewData["Welcome"]</div>
+
+
+        <div>Here is a View data Null calling ViewData["Name"]:  '@ViewData["Name"]'</div>
+
+        <div>Soy el hilo-CurrentThread: <strong> @ViewData["CurrentThread"]</strong></div>
+
+    </div>
+
+</div>
+
+<div>
+    <div>
+        <partial name="_ViewData" />
+
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-body">
+        <h5 class="card-title">@_student?.MiddleName</h5>
+        <p class="card-text">ID: @_student?.Name</p>
+        <p class="card-text">Date-of-Birth: @_student?.DateOfBirth.ToString("yyyy-MMMM-dd")</p>
+
+    </div>
+</div>

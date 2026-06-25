@@ -1,0 +1,25 @@
+﻿
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+
+<h4>Hello there I am the usemTempData view ;) @ViewBag.Mensaje </h4>
+
+
+
+
+<div class="card">
+    <div class="card-body">
+        <h3 class="card-title">Here is a partial TempData here</h3>         
+        @await Html.PartialAsync("_TempData")
+    </div>
+</div>
+<div class="card">
+    <div class="card-body">
+        <h3 class="card-title">Here is a partial View Bag here</h3>         
+        @await Html.PartialAsync("_ViewBag")
+    </div>
+</div>
