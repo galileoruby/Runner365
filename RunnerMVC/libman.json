@@ -28,6 +28,14 @@
         "jquery.validate.unobtrusive.js",
         "jquery.validate.unobtrusive.min.js"
       ]
+    },
+    {
+      "library": "twitter-bootstrap@5.3.3",
+      "destination": "wwwroot/lib/bootstrap/dist/",
+      "files": [
+        "css/bootstrap.min.css",
+        "js/bootstrap.bundle.min.js"
+      ]
     }
   ]
 }

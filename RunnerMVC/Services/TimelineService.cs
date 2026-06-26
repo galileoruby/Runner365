@@ -65,6 +65,15 @@ namespace RunnerMVC.Services
                     Descripcion = "Nuevas técnicas de células madre prometen tratamientos revolucionarios.",
                     Categoria = "Medicina",
                     EnlaceCompleto = "#"
+                },
+                new TimelineEvent
+                {
+                    Id = 7,
+                    Fecha = new DateTime(2026, 06, 25),
+                    Titulo = "FIFA World Cup 2026",
+                    Descripcion = "Playmatch USA vs Turkey",
+                    Categoria = "Sports",
+                    EnlaceCompleto = "#"
                 }
             };
         }
